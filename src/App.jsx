@@ -58,8 +58,8 @@ function App() {
             return
           }
 
-          if (nome.length < 3) {
-            alert("O nome deve ter mais de 2 caracteres");
+          if (nome.length < 4) {
+            alert("O nome deve ter mais de 3 caracteres");
             return;
           }
 
@@ -85,8 +85,8 @@ function App() {
               alert("Preencha todos os campos!");
               return
             }
-            if (nome.length < 3) {
-              alert("O nome deve ter mais de 2 caracteres");
+            if (nome.length < 4) {
+              alert("O nome deve ter mais de 3 caracteres");
               return;
             }
 
